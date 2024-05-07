@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Rudys.Car.Configurator/static/css/main.deb268f2.css",
+    "main.js": "/Rudys.Car.Configurator/static/js/main.84f383a2.js",
+    "index.html": "/Rudys.Car.Configurator/index.html",
+    "main.deb268f2.css.map": "/Rudys.Car.Configurator/static/css/main.deb268f2.css.map",
+    "main.84f383a2.js.map": "/Rudys.Car.Configurator/static/js/main.84f383a2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.deb268f2.css",
+    "static/js/main.84f383a2.js"
+  ]
+}
