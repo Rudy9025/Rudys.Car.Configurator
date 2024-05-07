@@ -1,0 +1,191 @@
+.container {
+    display: grid;
+    position: absolute;
+    top: 25%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+}
+
+.title {
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.items {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.button {
+    border: none;
+    border-radius: 10rem;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+    background-image: linear-gradient(to right, var(--color1) 0%, var(--color2) 100%);
+}
+
+/* Define button color variables */
+.red {
+    --color1: red;
+    --color2: rgb(117, 2, 2);
+}
+
+.blue {
+    --color1: blue;
+    --color2: rgb(28, 6, 113);
+}
+
+.green {
+    --color1: rgb(0, 255, 0);
+    --color2: rgb(60, 100, 0);
+}
+
+.white {
+    --color1: rgb(255, 255, 255);
+    --color2: rgba(105, 105, 105, 0.587);
+    border: 2px solid rgb(97, 97, 97);
+}
+
+.black {
+    --color1: rgb(0, 0, 0);
+    --color2: rgb(83, 83, 83);
+    border: 2px solid rgb(97, 97, 97);
+}
+
+.yellow {
+    --color1: rgb(229, 255, 0);
+    --color2: rgb(83, 83, 83);
+}
+
+.cyan {
+    --color1: cyan;
+    --color2: rgb(83, 83, 83);
+}
+
+.orange {
+    --color1: rgb(255, 123, 0);
+    --color2: rgb(83, 83, 83);
+}
+
+.brown {
+    --color1: rgb(81, 39, 0);
+    --color2: rgb(83, 83, 83);
+}
+
+.purple {
+    --color1: purple;
+    --color2: rgb(83, 83, 83);
+}
+
+/* Add hover effect */
+.button:hover {
+    border: 0.5px white solid;
+    transform: scale(1.1);
+}
+
+/* Add active state */
+.active {
+    border: rgb(255, 255, 255) 2px solid;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .container {
+        top: 50%;
+    }
+}
+@media screen and (max-width: 440px) {
+    .container {
+        top: 50%;
+        left: 50%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        top: 70%;
+    }
+    
+    .button {
+        height: 20px;
+        width: 20px;
+    }
+}
+.githubLogo{
+    justify-self: end;
+     border-radius: 50px;
+ } 
+.githubLogo:hover{
+    transition: 3px;
+     cursor: pointer;
+      transform: scale(1.15);  
+ }
+ .download {
+    z-index: 10;
+    position: absolute;
+    top: 60%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    border: none;
+    display: flex;  
+    justify-content: center; 
+    align-items: center; 
+    color: aliceblue;
+    cursor: pointer;
+    font-style: italic;
+    
+}
+.download img:hover{
+    transform: scale(1.15);
+}
+.download span:hover{
+    transform: scale(1.05);
+    border-bottom: 1px solid white;
+}
+
+.download span {
+    margin-right: 5px;  
+}
+
+.download img {
+    vertical-align: middle;  
+}
+/* Small screens */
+@media screen and (max-width: 480px) {
+    .download {
+        top: 85%;  
+        left: 50%;  
+        transform: translateX(-50%);
+    }
+}
+
+/* Medium screens */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .download {
+        top: 70%;  
+        left: 90%;  
+        transform: translate(-50%, -50%);
+    }
+}
+
+/* Large screens */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .download {
+        top: 50%;  
+        left: 80%;  
+        transform: translate(-50%, -50%);
+    }
+}
+
+/* Very large screens */
+@media screen and (min-width: 1025px) {
+    .download {
+        top: 60%; 
+        left: 90%; 
+        transform: translate(-50%, -50%);
+    }
+}
