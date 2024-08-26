@@ -1,0 +1,88 @@
+.slider {
+	width: 80%;
+	margin: 0px auto;
+	overflow-x: scroll;
+	white-space: nowrap;
+	cursor: grab;
+	user-select: none;
+ 	height: 50px;
+	border-bottom: #ccc solid 1px;
+   }
+  
+  .slider::-webkit-scrollbar {
+	display: none;
+  }
+  
+  .item {
+	display: inline-block;
+	width: 120px;
+	height: 25px;
+  	color: #ccc;
+  	font-weight: bold;
+	text-align: center;
+	transform: translateY(55%);
+   }
+  
+  .car-selection { 
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+	z-index: 1;
+	height: 80px;
+ 	top: 90%;
+	/* background-color: yellow; */
+	left: 50%;
+	transform: translate(-50%,-50%);
+	position: absolute;
+  }
+  
+  .title {
+	font-size: 14px;
+  	color: white;  
+ 	white-space: nowrap;
+	margin-right: -240px;
+   }
+  a:hover{
+	color: rgb(255, 166, 0);
+	cursor: pointer;
+	text-shadow: #ccc 10px 1px 10px;
+  }
+  .grabico {
+	width: 20px;
+	height: 20px;
+ 	animation: swingAnimation 2s infinite;  
+	 margin-left: -240px;
+  }
+  
+  @keyframes swingAnimation {
+	0%, 100% { transform: translateX(0); } 
+	50% { transform: translateX(-10px); } 
+  } 
+
+  @media screen and (max-width: 850px) {
+    .car-selection {
+        font-size: 22px;
+       width:80%;
+     }
+	 .grabico {
+		right:10% ;
+	  }
+  }
+  @media screen and (max-width: 500px) {
+    .car-selection {
+        font-size: 22px;
+       width:75%;
+     }
+	 .grabico {
+		right:10% ;
+	  }
+  }
+  @media screen and (max-width: 400px) {
+    .car-selection {
+        font-size: 22px;
+       width:70%;
+     }
+	 .grabico {
+		right:5% ;
+	  }
+  }
