@@ -54,16 +54,16 @@ const UI = ({ onSelectCar }) => {
       <div className="car-selection">
         <div className="title"><i>SELECT CAR</i></div>
         <div className="slider" id="slider">
-          <a className="item" onClick={() => onSelectCar('Supra')}>Supra</a>
-        <a className="item" onClick={() => onSelectCar('BMW')}>Bmw M3</a>
-        <a className="item" onClick={() => onSelectCar('GClass')}>G-Wagon</a>
-          <a className="item" onClick={() => onSelectCar('SL63')}>SL63-AMG</a>
-           <a className="item" onClick={() => onSelectCar('McLaren')}>McLaren</a>
-          <a className="item" onClick={() => onSelectCar('RollsRoyce')}>Rolls Royce</a>
-          <a className="item" onClick={() => onSelectCar('mercedes_Sclass')}>Mercedes S650</a>
-          <a className="item"  onClick={() => onSelectCar('porsche')}>Porsche 911</a>
-          <a className="item" onClick={() => onSelectCar('S63_Coupe')}>S63 Coupe</a> 
-          <a className="item" onClick={() => onSelectCar('Brabus')}>Brabus G900</a> 
+           <a href='' className="item" onClick={() => onSelectCar('Supra')}>Supra</a>
+         <a href='' className="item" onClick={() => onSelectCar('BMW')}>Bmw M3</a>
+         <a href='' className="item" onClick={() => onSelectCar('GClass')}>G-Wagon</a>
+           <a href='' className="item" onClick={() => onSelectCar('SL63')}>SL63-AMG</a>
+            <a href='' className="item" onClick={() => onSelectCar('McLaren')}>McLaren</a>
+           <a href='' className="item" onClick={() => onSelectCar('RollsRoyce')}>Rolls Royce</a>
+           <a href='' className="item" onClick={() => onSelectCar('mercedes_Sclass')}>Mercedes S650</a>
+           <a href='' className="item"  onClick={() => onSelectCar('porsche')}>Porsche 911</a>
+           <a href='' className="item" onClick={() => onSelectCar('S63_Coupe')}>S63 Coupe</a> 
+           <a href='' className="item" onClick={() => onSelectCar('Brabus')}>Brabus G900</a> 
         </div>
        <img src="grab.png" alt="" className="grabico" />
       </div>
