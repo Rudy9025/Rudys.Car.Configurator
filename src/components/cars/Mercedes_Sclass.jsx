@@ -13,7 +13,7 @@ import { AnimationContext } from "../AnimationContext";
 
 export default function Model(props) {
   const { nodes, materials } = useGLTF('models/mercedes_Sclass.glb')
-  const { currentAnimation, playAnimation } = useContext(AnimationContext);
+  const { currentAnimation } = useContext(AnimationContext);
 
 useEffect(() => {
   const setMaterialColor = (materialName, color) => {

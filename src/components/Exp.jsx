@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useGLTF, Caustics, CubeCamera, Environment, OrbitControls, RandomizedLight, AccumulativeShadows, } from '@react-three/drei';
+import {  Caustics, CubeCamera, Environment, OrbitControls, RandomizedLight, AccumulativeShadows, } from '@react-three/drei';
 import { useRef,Suspense } from 'react';
 import { Canvas, useLoader } from '@react-three/fiber';
 import { EffectComposer, Bloom } from '@react-three/postprocessing';

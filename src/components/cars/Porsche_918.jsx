@@ -13,7 +13,7 @@ import { AnimationContext } from "../AnimationContext";
 
 export default function Model(props) {
   const { nodes, materials } = useGLTF('models/porsche_918.glb')
-  const { currentAnimation, playAnimation } = useContext(AnimationContext);
+  const { currentAnimation } = useContext(AnimationContext);
 
 useEffect(() => {
   const setMaterialColor = (materialName, color) => {
