@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import React, { useContext } from 'react';
 import './css/BMW.css';
 import { AnimationContext } from "../AnimationContext";

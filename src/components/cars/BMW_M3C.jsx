@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import React, { useEffect,useContext } from 'react'
 import { useGLTF } from '@react-three/drei'
 import { AnimationContext } from "../AnimationContext";

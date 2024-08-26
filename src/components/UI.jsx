@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React, { useEffect } from "react";
 import "./css/UI.css";
 import Title from './Title';

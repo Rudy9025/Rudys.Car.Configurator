@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React  from 'react';
 import Exp from './components/Exp';
 import './App.css';

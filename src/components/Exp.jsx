@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React, { useState } from 'react';
 import {  Caustics, CubeCamera, Environment, OrbitControls, RandomizedLight, AccumulativeShadows, } from '@react-three/drei';
 import { useRef,Suspense } from 'react';

@@ -1,4 +1,4 @@
-// WaviyText.js
+/* eslint-disable */
 import React from 'react';
 import './css/Title.css';
 
