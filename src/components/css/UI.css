@@ -21,6 +21,7 @@
   	font-weight: bold;
 	text-align: center;
 	transform: translateY(55%);
+	cursor: pointer;
    }
   
   .car-selection { 
